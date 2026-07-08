@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Notification Strings -->
+    <string name="notification_channel_name">StealthStream Streaming</string>
+    <string name="notification_channel_description">Notifications for active streaming sessions</string>
+    <string name="notification_title">StealthStream is active</string>
+    <string name="notification_text">Streaming encrypted video</string>
+
+    <!-- Consent -->
+    <string name="consent_title">User Consent Required</string>
+    <string name="consent_message">By using StealthStream, you acknowledge that:\n\n1. Video frames will be captured and encrypted\n\n2. Encrypted data will be streamed over the network\n\n3. This app requires explicit camera permission\n\n4. Misuse for covert recording may violate laws in your jurisdiction\n\nDo you accept these terms?</string>
+    <string name="consent_accept">I Accept</string>
+    <string name="consent_decline">Decline</string>
+</resources>
