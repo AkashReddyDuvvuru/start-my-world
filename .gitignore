@@ -1,0 +1,47 @@
+# Gradle files
+.gradle/
+build/
+*.apk
+*.ap_
+*.aab
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Android specific
+local.properties
+.classpath
+.project
+.settings/
+bin/
+gen/
+
+# Native build
+.externalNativeBuild/
+cmake-build-debug/
+cmake-build-release/
+
+# Keys and secrets
+*.keystore
+*.jks
+local.properties
+google-services.json
+
+# Test coverage
+coverage/
+*.exec
+
+# Environment
+.env
+.env.local
+
+# Dependencies
+**/node_modules/
