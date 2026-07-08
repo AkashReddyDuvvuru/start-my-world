@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom View Attributes -->
+    <declare-styleable name="StreamStatusView">
+        <attr name="status_color" format="color" />
+        <attr name="status_text" format="string" />
+        <attr name="status_icon" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="StatsDisplay">
+        <attr name="show_fps" format="boolean" />
+        <attr name="show_bitrate" format="boolean" />
+        <attr name="show_latency" format="boolean" />
+        <attr name="update_interval" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">StealthStream</string>
+    <string name="app_description">Secure encrypted camera streaming</string>
+
+    <!-- Main Activity Strings -->
+    <string name="start_streaming">Start Streaming</string>
+    <string name="stop_streaming">Stop Streaming</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_streaming">Streaming...</string>
+    <string name="status_error">Error</string>
+
+    <!-- Permission Strings -->
+    <string name="permission_camera_title">Camera Permission Required</string>
+    <string name="permission_camera_message">StealthStream needs access to your camera to capture and stream video. This permission is required for the app to function.</string>
+    <string name="permission_camera_rationale">Camera access is needed to capture video frames for encryption and streaming.</string>
+    <string name="permission_denied">Camera permission was denied. The app cannot function without it.</string>
+    <string name="permission_grant">Grant Permission</string>
+    <string name="permission_cancel">Cancel</string>
+
+    <!-- Error Messages -->
+    <string name="error_camera_unavailable">Camera is not available</string>
+    <string name="error_camera_in_use">Camera is already in use by another app</string>
+    <string name="error_network_unavailable">Network is unavailable</string>
+    <string name="error_service_failed">Service failed to start</string>
+    <string name="error_encryption_failed">Encryption failed</string>
+    <string name="error_unknown">An unknown error occurred</string>
+
+    <!-- Notification Strings -->
+    <string name="notification_channel_name">StealthStream Streaming</string>
+    <string name="notification_channel_description">Notifications for active streaming sessions</string>
+    <string name="notification_title">StealthStream is active</string>
+    <string name="notification_text">Streaming encrypted video</string>
+    <string name="notification_action_stop">Stop</string>
+
+    <!-- Settings & Configuration -->
+    <string name="settings_title">Settings</string>
+    <string name="target_ip_hint">Server IP Address</string>
+    <string name="target_port_hint">Server Port</string>
+    <string name="bitrate_hint">Target Bitrate (kbps)</string>
+
+    <!-- Privacy & Legal -->
+    <string name="privacy_policy_title">Privacy Policy</string>
+    <string name="privacy_policy_url">https://example.com/privacy</string>
+    <string name="terms_of_service_url">https://example.com/terms</string>
+    <string name="consent_message">By using StealthStream, you acknowledge that:
+\n1. Video frames will be captured and encrypted
+\n2. Encrypted data will be streamed over the network
+\n3. This app requires explicit camera permission
+\n4. Misuse for covert recording may violate laws in your jurisdiction</string>
+
+    <!-- Statistics -->
+    <string name="stat_fps">FPS: %d</string>
+    <string name="stat_bytes_sent">Sent: %s</string>
+    <string name="stat_packet_loss">Loss: %.1f%%</string>
+    <string name="stat_uptime">Uptime: %s</string>
+</resources>
